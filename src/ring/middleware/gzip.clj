@@ -1,5 +1,5 @@
 (ns ring.middleware.gzip
-  (:require [clojure.contrib.io :as io])
+  (:require [clojure.java.io :as io])
   (:import (java.util.zip GZIPOutputStream)
            (java.io InputStream
                     File
